@@ -1,0 +1,43 @@
+.head-banner{
+    background-color:#828282;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-image: url(artificial-intelligence-3382507_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.sezione-icone{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.circular--portrait{
+
+position: relative;
+width: 250px;
+height: 250px;
+overflow: hidden;
+border-radius: 50%;
+margin-top: 100px;
+margin-left: 130px;
+}
+
+.circular--portrait img {
+    width: 100%;
+    height: auto;
+  }
+
+  .descrizione1{
+    text-align: center;
+    justify-content: left;
+  }
+
+@media screen and (min-width: 768px){
+    .head-banner{
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+}
+

@@ -13,14 +13,15 @@
     padding-bottom: 7rem;
 }
 
-.circular--portrait{
-
-position: relative;
-width: 250px;
-height: 250px;
-overflow: hidden;
-border-radius: 50%;
-}
+ .circular--portrait {
+        object-fit: cover;
+        border-radius: 100%;
+        height: 200px;
+        min-height: 200px;
+        width: 200px;
+        min-width: 200px;
+        overflow: hidden;
+    }
 
 .circular--portrait img {
     width: 100%;

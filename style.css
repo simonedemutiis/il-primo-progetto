@@ -32,10 +32,7 @@
     height: auto;
   }
 
-  .descrizione1{
-    text-align: center;
-    justify-content: left;
-  }
+
  
   .content{
     padding: 25px;
@@ -210,7 +207,29 @@ text-align: center;
 
 .capture{
     background: #f8f9fa;
+    margin-top: 80px;
+    margin-left: 260px;
 }
+ .info{
+margin: 100px;
+margin-left: 250px;
+margin-bottom: 70px;
+}
+
+.descrizione1{
+    text-align: left;
+    margin: 50px;
+   }
+
+.descrizione1 h3{
+    text-align: center;
+}
+body{
+    background: #f8f9fa;
+}
+    nav li:hover{
+        background-color: #737373;
+    }
 
 @media screen and (min-width: 768px){
     .head-banner{

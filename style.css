@@ -219,7 +219,7 @@ margin-bottom: 70px;
 .descrizione1{
     text-align: left;
     margin: 50px;
-   }
+}
 
 .descrizione1 h3{
     text-align: center;
@@ -227,7 +227,7 @@ margin-bottom: 70px;
 body{
     background: #f8f9fa;
 }
-    nav li:hover{
+nav li:hover{
         background-color: #737373;
     }
 

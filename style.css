@@ -50,12 +50,11 @@
   }
 
   #modulo{
-      border-top: solid 4px black; 
-      border-bottom: solid 4px black;
+      border-top: solid 4px rgb(3, 163, 236); 
+      border-bottom: solid 4px rgb(3, 163, 236);
       padding: 15px; 
-      background: rgb(58 58 58);
+      background:black;
       overflow: auto;
-      margin-top: 20px;
       color: white;
   }
 
@@ -138,19 +137,13 @@ text-align: center;
     cursor: pointer;
 }
 
-@media screen and (min-width: 768px){
-    .head-banner{
-        padding-top: 12rem;
-        padding-bottom: 12rem;
-    }
-}
 
 input.pulsante{
     background: rgb(3, 163, 236)  !important;
     width: 200px !important;
 }
 input.pulsante:hover{
-    background: #000 !important;
+    background: tomato !important;
     color: white;
     border: solid 2px rgb(73, 73, 73);
 }
@@ -212,4 +205,16 @@ text-align: center;
 }
 .footer-bottom p{
     word-spacing: 2px;
+}
+
+
+.capture{
+    background: #f8f9fa;
+}
+
+@media screen and (min-width: 768px){
+    .head-banner{
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
 }

@@ -17,6 +17,7 @@
 .sezione-icone {
   padding-top: 7rem;
   padding-bottom: 13rem;
+  just
 }
 
 .circular--portrait {
@@ -27,7 +28,6 @@
   width: 210px;
   min-width: 210px;
   overflow: hidden;
-  margin-left: 700px;
 }
 
 .circular--portrait img {
